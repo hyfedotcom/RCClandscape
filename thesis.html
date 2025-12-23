@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Thesis | RCC Therapeutics Report 2025–2035</title>
+    <meta name="description" content="Investment thesis for Refractory Chronic Cough therapeutics. Digital integration, regulatory reset, and first-mover advantage in a $9B+ market with zero approved drugs.">
+    <meta name="keywords" content="RCC investment thesis, chronic cough market opportunity, P2X3 antagonists investment, digital therapeutics cough, camlipixant, nalbuphine">
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Investment Thesis | RCC Therapeutics Report">
+    <meta property="og:description" content="Strategic investment thesis for the Refractory Chronic Cough therapeutics market 2025–2035.">
+    <meta property="og:type" content="article">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;1,9..144,400&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --forest: #1a4d3e;
+            --forest-dark: #0f2f26;
+            --forest-light: #2a6b58;
+            --coral: #e85a4f;
+            --coral-light: #ff7b6b;
+            --cream: #faf8f5;
+            --warm-white: #fffefa;
+            --text-primary: #1a1a1a;
+            --text-secondary: #4a4a4a;
+            --text-muted: #6b6b6b;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Source Sans 3', -apple-system, sans-serif;
+            background: var(--cream);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 17px;
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Fraunces', Georgia, serif;
+            font-weight: 500;
+            line-height: 1.3;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        
+        /* Header */
+        .header {
+            background: var(--forest-dark);
+            padding: 16px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header__inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header__badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+            text-decoration: none;
+        }
+        
+        .header__badge:hover {
+            opacity: 0.9;
+        }
+        
+        .header__badge span {
+            background: var(--coral);
+            padding: 4px 10px;
+            font-size: 11px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+        
+        .header__cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--coral);
+            border: none;
+            color: white;
+            padding: 12px 24px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        
+        .header__cta:hover {
+            background: var(--coral-light);
+        }
+        
+        .header__cta svg {
+            width: 16px;
+            height: 16px;
+            fill: currentColor;
+        }
+        
+        /* Hero */
+        .hero {
+            background: linear-gradient(165deg, var(--forest) 0%, var(--forest-dark) 100%);
+            padding: 60px 0 80px;
+            position: relative;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(232,90,79,0.12) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        
+        .hero__label {
+            display: inline-block;
+            background: var(--coral);
+            color: white;
+            padding: 6px 14px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        
+        .hero__title {
+            color: white;
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+        
+        .hero__subtitle {
+            color: rgba(255,255,255,0.8);
+            font-size: 1.15rem;
+            max-width: 600px;
+        }
+        
+        /* Central Thesis Box */
+        .thesis-box {
+            background: linear-gradient(135deg, var(--forest) 0%, var(--forest-dark) 100%);
+            padding: 48px;
+            margin: -40px auto 60px;
+            max-width: 800px;
+            position: relative;
+            z-index: 10;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+        
+        @media (max-width: 600px) {
+            .thesis-box {
+                padding: 32px 24px;
+                margin: -30px 16px 40px;
+            }
+        }
+        
+        .thesis-box__label {
+            color: var(--coral-light);
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 24px;
+        }
+        
+        .thesis-box__text {
+            font-family: 'Fraunces', serif;
+            font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+            color: white;
+            font-weight: 400;
+            line-height: 1.6;
+            font-style: italic;
+        }
+        
+        .thesis-box__text strong {
+            color: var(--coral-light);
+            font-weight: 500;
+            font-style: normal;
+        }
+        
+        /* Main Content */
+        .content {
+            padding: 0 0 80px;
+        }
+        
+        .content__section {
+            margin-bottom: 48px;
+        }
+        
+        .content__section:last-child {
+            margin-bottom: 0;
+        }
+        
+        .content__number {
+            font-family: 'Fraunces', serif;
+            font-size: 3rem;
+            color: var(--coral);
+            font-weight: 700;
+            opacity: 0.3;
+            line-height: 1;
+        }
+        
+        .content__title {
+            font-size: 1.5rem;
+            color: var(--forest-dark);
+            margin-top: -10px;
+            margin-bottom: 20px;
+        }
+        
+        .content p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+        
+        .content ul {
+            color: var(--text-secondary);
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        
+        .content li {
+            margin-bottom: 10px;
+        }
+        
+        .content strong {
+            color: var(--text-primary);
+        }
+        
+        /* Insight Cards */
+        .insight-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin: 32px 0;
+        }
+        
+        .insight-card {
+            background: white;
+            padding: 28px;
+            border-left: 4px solid var(--forest);
+            position: relative;
+        }
+        
+        .insight-card--highlight {
+            border-left-color: var(--coral);
+        }
+        
+        .insight-card__number {
+            font-family: 'Fraunces', serif;
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+        
+        .insight-card__title {
+            font-size: 1.15rem;
+            color: var(--forest-dark);
+            margin-bottom: 12px;
+        }
+        
+        .insight-card__text {
+            color: var(--text-secondary);
+            font-size: 15px;
+            margin: 0;
+        }
+        
+        /* Catalyst List */
+        .catalyst-list {
+            background: white;
+            padding: 32px;
+            margin: 32px 0;
+        }
+        
+        .catalyst-list__title {
+            font-size: 1.1rem;
+            color: var(--forest);
+            margin-bottom: 20px;
+        }
+        
+        .catalyst-list ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .catalyst-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.06);
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+        
+        .catalyst-list li:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        
+        .catalyst-list li::before {
+            content: '→';
+            color: var(--coral);
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+        
+        /* Risk Box */
+        .risk-box {
+            background: rgba(232,90,79,0.08);
+            border-left: 4px solid var(--coral);
+            padding: 28px;
+            margin: 32px 0;
+        }
+        
+        .risk-box__title {
+            font-size: 1.1rem;
+            color: var(--coral);
+            margin-bottom: 16px;
+        }
+        
+        .risk-box ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        
+        .risk-box li {
+            margin-bottom: 8px;
+            color: var(--text-secondary);
+        }
+        
+        /* Position Box */
+        .position-box {
+            background: linear-gradient(135deg, var(--forest) 0%, var(--forest-dark) 100%);
+            padding: 36px;
+            margin: 40px 0;
+        }
+        
+        .position-box__title {
+            color: var(--coral-light);
+            font-size: 1.25rem;
+            margin-bottom: 20px;
+        }
+        
+        .position-box p {
+            color: white;
+            margin-bottom: 16px;
+        }
+        
+        .position-box p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .position-box ul {
+            color: white;
+            padding-left: 20px;
+            margin-bottom: 16px;
+        }
+        
+        .position-box li {
+            color: white;
+            margin-bottom: 8px;
+        }
+        
+        .position-box strong {
+            color: var(--coral-light);
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            background: var(--forest-dark);
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        .cta-section__title {
+            color: white;
+            font-size: 1.75rem;
+            margin-bottom: 16px;
+        }
+        
+        .cta-section__text {
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 32px;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .cta-section__btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--coral);
+            color: white;
+            padding: 16px 32px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        
+        .cta-section__btn:hover {
+            background: var(--coral-light);
+        }
+        
+        .cta-section__btn svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--forest-dark);
+            padding: 32px 0;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .footer__inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        
+        .footer__text {
+            color: rgba(255,255,255,0.5);
+            font-size: 14px;
+        }
+        
+        .footer__links {
+            display: flex;
+            gap: 24px;
+        }
+        
+        .footer__links a {
+            color: rgba(255,255,255,0.5);
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+        
+        .footer__links a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__inner">
+            <a href="index.html" class="header__badge">
+                <span>Report</span>
+                RCC Therapeutics 2025–2035
+            </a>
+            <a href="index.html#gate" class="header__cta">
+                <svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+                Download Full Report
+            </a>
+        </div>
+    </header>
+    
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <span class="hero__label">Investment Thesis</span>
+            <h1 class="hero__title">RCC Therapeutics Market Thesis</h1>
+            <p class="hero__subtitle">Strategic positioning for the next decade of chronic cough treatment</p>
+        </div>
+    </section>
+    
+    <!-- Central Thesis -->
+    <div class="thesis-box">
+        <div class="thesis-box__label">Central Thesis</div>
+        <p class="thesis-box__text">
+            "The next decade will be shaped by the convergence of three factors: higher-efficacy P2X3 and non-P2X3 mechanisms, a regulatory reset, and the emergence of digital cough therapeutics as core components of both clinical development and commercial models. Therapies capable of demonstrating <strong>≥30% placebo-adjusted efficacy</strong>, low discontinuation, durable symptom control, and <strong>digital integration</strong> will dominate the market and define the first generation of approved RCC treatments."
+        </p>
+    </div>
+    
+    <!-- Main Content -->
+    <main class="content">
+        <div class="container">
+            
+            <!-- What's Changing -->
+            <section class="content__section">
+                <div class="content__number">01</div>
+                <h2 class="content__title">What's Changing</h2>
+                
+                <p><strong>Regulation:</strong> The FDA has materially raised the evidentiary bar. Only agents with clear placebo-adjusted improvements in 24-hour cough frequency and clinically meaningful PROs are viable. This will compress the field to 1–2 winners.</p>
+                
+                <p><strong>Mechanistic Validation:</strong> The P2X3 class top candidate in the pipeline (camlipixant) shows ~34% placebo-adjusted efficacy with low AE. KOR/MOR agents (e.g., nalbuphine ER) present the highest efficacy signal in RCC and IPF cough (≥40–57% placebo-adjusted) but face class-specific regulatory risk.</p>
+                
+                <p><strong>Digital Therapeutics:</strong> Digital therapeutics (DTx) are shifting from adjuncts to core infrastructure. Digital approaches can deliver ~40% cough reduction on their own and extend pharmacologic persistence by 30%, improving lifetime value by ~44%. Digital therapeutics will shape both clinical trial design and post-approval economics.</p>
+            </section>
+            
+            <!-- What Most Investors Miss -->
+            <section class="content__section">
+                <div class="content__number">02</div>
+                <h2 class="content__title">What Most Investors Miss</h2>
+                
+                <div class="insight-grid">
+                    <div class="insight-card">
+                        <div class="insight-card__number">01</div>
+                        <h3 class="insight-card__title">Durability Will Determine Pricing</h3>
+                        <p class="insight-card__text">Regulators and Health Technology Assessment bodies (HTA) now demand 24–52 week data. Without durability, even efficacious drugs will face price compression or restricted reimbursement.</p>
+                    </div>
+                    
+                    <div class="insight-card insight-card--highlight">
+                        <div class="insight-card__number">02</div>
+                        <h3 class="insight-card__title">Digital Therapeutics Expand the Market</h3>
+                        <p class="insight-card__text">Standalone DTx creates an early, scalable treatment modality, while combination therapy meaningfully improves revenue, access, and real-world evidence generation.</p>
+                    </div>
+                    
+                    <div class="insight-card">
+                        <div class="insight-card__number">03</div>
+                        <h3 class="insight-card__title">The Market is Larger Than Modeled</h3>
+                        <p class="insight-card__text">Using conservative referral and treatment assumptions, the reachable RCC population (~20–30M globally) is substantially underrepresented in published market models.</p>
+                    </div>
+                    
+                    <div class="insight-card insight-card--highlight">
+                        <div class="insight-card__number">04</div>
+                        <h3 class="insight-card__title">Pricing Uncertainty is Both Barrier and Opportunity</h3>
+                        <p class="insight-card__text">It is very hard to price a novel therapy when the market size is unknown. Pharma fears walking away from revenue and payers fear budget-busting costs. This highlights the need for Real World Data (RWE).</p>
+                    </div>
+                    
+                    <div class="insight-card">
+                        <div class="insight-card__number">05</div>
+                        <h3 class="insight-card__title">First Mover Advantage is Durable</h3>
+                        <p class="insight-card__text">Given the temporal dynamics of the drug pipeline, diagnostic friction, specialist bottlenecks, and digital onboarding, early entrants with integrated digital ecosystems will enjoy persistent lock-in effects.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Catalysts -->
+            <section class="content__section">
+                <div class="content__number">03</div>
+                <h2 class="content__title">Catalysts (2026–2027)</h2>
+                
+                <div class="catalyst-list">
+                    <h3 class="catalyst-list__title">Key Milestones to Watch</h3>
+                    <ul>
+                        <li>Camlipixant Phase 3 readouts (CALM-1/2)</li>
+                        <li>Nalbuphine ER Phase 3 program initiation and IPF readouts</li>
+                        <li>Taplucainium Phase 2b results</li>
+                        <li>DTx regulatory pathway (Kyorin × Hyfe in Japan)</li>
+                        <li>First real-world HEOR data linking cough reduction to productivity and healthcare utilization</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <!-- Key Risks -->
+            <section class="content__section">
+                <div class="content__number">04</div>
+                <h2 class="content__title">Key Risks</h2>
+                
+                <div class="risk-box">
+                    <h3 class="risk-box__title">Risk Factors</h3>
+                    <ul>
+                        <li>The dynamics of cough and resulting high placebo effect complicates demonstrating placebo-adjusted efficacy</li>
+                        <li>Regulatory uncertainty following gefapixant's CRLs, but potentially interesting opportunities emerging around Prescription Drug Use-Related Software (PDURS)</li>
+                        <li>Opioid class perception risk for nalbuphine ER</li>
+                        <li>HTA skepticism absent robust QALY evidence</li>
+                        <li>Uptake of P2X3 inhibitors likely limited by taste AEs</li>
+                        <li>Underdiagnosis and delays in referral reducing near-term uptake</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <!-- Strategic Positioning -->
+            <section class="content__section">
+                <div class="content__number">05</div>
+                <h2 class="content__title">Strategic Positioning</h2>
+                
+                <p>The most attractive strategic position lies in platforms combining:</p>
+                
+                <div class="position-box">
+                    <h3 class="position-box__title">Winning Platform Criteria</h3>
+                    <ul>
+                        <li><strong>Efficacy ≥30%</strong> placebo-adjusted</li>
+                        <li><strong>Taste AEs <10%</strong></li>
+                        <li><strong>Durability ≥24–52 weeks</strong></li>
+                        <li><strong>Digital integration</strong> enabling objective monitoring, adherence, and long-term real-world evidence</li>
+                    </ul>
+                    <p>Drug candidates meeting these thresholds, paired with digital therapeutics that extend persistence and provide trial-grade, objective endpoints, represent the strongest probability of regulatory approval, payer acceptance, and sustained commercial growth.</p>
+                    <p>Digital therapeutics themselves represent a credible standalone modality, perhaps as the first-line therapy, and will likely shape both clinical practice and reimbursement frameworks.</p>
+                </div>
+                
+                <p><strong>Bottom line:</strong> RCC is transitioning from an off-label, fragmented category to a defined therapeutic market. The winners will be those that combine validated biology, differentiated tolerability, and digital infrastructure, positioning themselves at the intersection of clinical efficacy, regulatory credibility, and payer-aligned economics.</p>
+            </section>
+            
+        </div>
+    </main>
+    
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="cta-section__title">Get the Full 52-Page Report</h2>
+            <p class="cta-section__text">
+                Access pipeline scorecards, scenario models, risk matrices, and detailed strategic positioning insights.
+            </p>
+            <a href="index.html#gate" class="cta-section__btn">
+                <svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+                Download Full Report
+            </a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__inner">
+            <p class="footer__text">
+                © 2025 RCC Therapeutics Report. Prepared with support from Hyfe Inc.
+            </p>
+            <div class="footer__links">
+                <a href="index.html">Full Report</a>
+                <a href="executive-summary.html">Executive Summary</a>
+                <a href="https://www.hyfe.com" target="_blank">Hyfe.com</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
