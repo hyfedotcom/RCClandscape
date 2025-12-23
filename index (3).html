@@ -1,0 +1,1533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refractory Chronic Cough Therapeutics Report | Pipeline Analysis & Competitive Landscape 2025–2035</title>
+    <meta name="description" content="Comprehensive analysis of the $9B+ RCC therapeutics market. Pipeline scorecard, regulatory insights, digital therapeutics outlook, and investment thesis for chronic cough treatments.">
+    <meta name="keywords" content="refractory chronic cough, RCC therapeutics, P2X3 antagonists, camlipixant, chronic cough market, pharmaceutical pipeline, digital therapeutics">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="RCC Therapeutics Report 2025–2035">
+    <meta property="og:description" content="Pipeline Analysis & Competitive Landscape for the $9B+ Refractory Chronic Cough Market">
+    <meta property="og:type" content="article">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;1,9..144,400&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --forest: #1a4d3e;
+            --forest-dark: #0f2f26;
+            --forest-light: #2a6b58;
+            --coral: #e85a4f;
+            --coral-light: #ff7b6b;
+            --cream: #faf8f5;
+            --warm-white: #fffefa;
+            --text-primary: #1a1a1a;
+            --text-secondary: #4a4a4a;
+            --text-muted: #6b6b6b;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Source Sans 3', -apple-system, sans-serif;
+            background: var(--cream);
+            color: var(--text-primary);
+            line-height: 1.6;
+            font-size: 17px;
+        }
+        
+        /* Typography */
+        h1, h2, h3, h4 {
+            font-family: 'Fraunces', Georgia, serif;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+        
+        /* Utility */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        
+        .container--narrow {
+            max-width: 800px;
+        }
+        
+        /* Header */
+        .header {
+            background: var(--forest-dark);
+            padding: 16px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header__inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header__badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+        
+        .header__badge span {
+            background: var(--coral);
+            padding: 4px 10px;
+            font-size: 11px;
+            letter-spacing: 0.1em;
+        }
+        
+        .header__cta {
+            background: transparent;
+            border: 1px solid rgba(255,255,255,0.3);
+            color: white;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .header__cta:hover {
+            background: white;
+            color: var(--forest-dark);
+        }
+        
+        /* Hero */
+        .hero {
+            background: linear-gradient(165deg, var(--forest) 0%, var(--forest-dark) 100%);
+            padding: 80px 0 100px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(232,90,79,0.15) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+        }
+        
+        .hero__label {
+            display: inline-block;
+            background: var(--coral);
+            color: white;
+            padding: 6px 14px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-bottom: 24px;
+        }
+        
+        .hero__title {
+            color: white;
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 500;
+            max-width: 900px;
+            margin-bottom: 16px;
+        }
+        
+        .hero__subtitle {
+            color: rgba(255,255,255,0.8);
+            font-size: 1.25rem;
+            font-weight: 400;
+            max-width: 600px;
+            margin-bottom: 40px;
+        }
+        
+        .hero__meta {
+            display: flex;
+            gap: 32px;
+            color: rgba(255,255,255,0.6);
+            font-size: 14px;
+        }
+        
+        .hero__meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        /* Stats Bar */
+        .stats {
+            background: white;
+            border-bottom: 1px solid rgba(0,0,0,0.06);
+            padding: 0;
+            margin-top: -40px;
+            position: relative;
+            z-index: 10;
+        }
+        
+        .stats__grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        @media (max-width: 768px) {
+            .stats__grid {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+        
+        .stats__item {
+            padding: 32px 24px;
+            text-align: center;
+            border-right: 1px solid rgba(0,0,0,0.06);
+        }
+        
+        .stats__item:last-child {
+            border-right: none;
+        }
+        
+        .stats__number {
+            font-family: 'Fraunces', serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--forest);
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+        
+        .stats__number span {
+            color: var(--coral);
+        }
+        
+        .stats__label {
+            font-size: 13px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        /* Executive Summary (Public) */
+        .executive {
+            padding: 80px 0;
+            background: var(--cream);
+        }
+        
+        .executive__header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .executive__eyebrow {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--coral);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 16px;
+        }
+        
+        .executive__title {
+            font-size: 2.5rem;
+            color: var(--forest-dark);
+            margin-bottom: 16px;
+        }
+        
+        .executive__intro {
+            max-width: 700px;
+            margin: 0 auto;
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+        
+        .executive__grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 32px;
+            margin-bottom: 60px;
+        }
+        
+        @media (max-width: 768px) {
+            .executive__grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .insight-card {
+            background: white;
+            padding: 32px;
+            border: 1px solid rgba(0,0,0,0.06);
+            position: relative;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .insight-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+        }
+        
+        .insight-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--forest);
+        }
+        
+        .insight-card--highlight::before {
+            background: var(--coral);
+        }
+        
+        .insight-card__number {
+            font-family: 'Fraunces', serif;
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+        }
+        
+        .insight-card__title {
+            font-size: 1.25rem;
+            color: var(--forest-dark);
+            margin-bottom: 12px;
+        }
+        
+        .insight-card__text {
+            color: var(--text-secondary);
+            font-size: 15px;
+        }
+        
+        /* Thesis Section */
+        .thesis {
+            background: var(--forest-dark);
+            padding: 80px 0;
+            position: relative;
+        }
+        
+        .thesis::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--coral), transparent);
+        }
+        
+        .thesis__content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .thesis__label {
+            color: var(--coral);
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 24px;
+        }
+        
+        .thesis__text {
+            font-family: 'Fraunces', serif;
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            color: white;
+            font-weight: 400;
+            line-height: 1.5;
+            font-style: italic;
+        }
+        
+        .thesis__text strong {
+            color: var(--coral-light);
+            font-weight: 500;
+            font-style: normal;
+        }
+        
+        /* Table of Contents */
+        .toc {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .toc__header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        
+        .toc__title {
+            font-size: 2rem;
+            color: var(--forest-dark);
+        }
+        
+        .toc__grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 24px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        @media (max-width: 900px) {
+            .toc__grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        @media (max-width: 600px) {
+            .toc__grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        .toc__item {
+            text-align: center;
+            padding: 24px 16px;
+            background: var(--cream);
+            border: 1px solid transparent;
+            transition: all 0.2s;
+        }
+        
+        .toc__item:hover {
+            border-color: var(--forest);
+            background: white;
+        }
+        
+        .toc__number {
+            font-family: 'Fraunces', serif;
+            font-size: 2rem;
+            color: var(--coral);
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        
+        .toc__name {
+            font-size: 14px;
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+        
+        /* Preview Cards Section */
+        .preview-cards {
+            padding: 60px 0 80px;
+            background: white;
+        }
+        
+        .preview-cards__grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        @media (max-width: 600px) {
+            .preview-cards__grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .preview-card {
+            background: var(--cream);
+            padding: 32px;
+            text-decoration: none;
+            border: 2px solid transparent;
+            transition: all 0.25s ease;
+            display: block;
+        }
+        
+        .preview-card:hover {
+            border-color: var(--forest);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(0,0,0,0.1);
+        }
+        
+        .preview-card__icon {
+            width: 48px;
+            height: 48px;
+            background: var(--forest);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        .preview-card__icon svg {
+            width: 22px;
+            height: 22px;
+            fill: white;
+        }
+        
+        .preview-card__title {
+            font-family: 'Fraunces', serif;
+            font-size: 1.25rem;
+            color: var(--forest-dark);
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        
+        .preview-card__text {
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+            line-height: 1.5;
+        }
+        
+        .preview-card__link {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--coral);
+            transition: color 0.2s;
+        }
+        
+        .preview-card:hover .preview-card__link {
+            color: var(--coral-light);
+        }
+        
+        /* Gate Section */
+        .gate {
+            padding: 100px 0;
+            background: linear-gradient(180deg, var(--cream) 0%, white 100%);
+            position: relative;
+        }
+        
+        .gate__inner {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .gate__icon {
+            width: 64px;
+            height: 64px;
+            background: var(--forest);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+        }
+        
+        .gate__icon svg {
+            width: 28px;
+            height: 28px;
+            fill: white;
+        }
+        
+        .gate__title {
+            font-size: 2rem;
+            color: var(--forest-dark);
+            margin-bottom: 16px;
+        }
+        
+        .gate__text {
+            color: var(--text-secondary);
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+        }
+        
+        .gate__benefits {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .gate__benefit {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+        
+        .gate__benefit svg {
+            width: 18px;
+            height: 18px;
+            fill: var(--forest);
+        }
+        
+        /* HubSpot Form Container */
+        .form-container {
+            background: white;
+            padding: 40px;
+            border: 1px solid rgba(0,0,0,0.08);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+            max-width: 480px;
+            margin: 0 auto;
+        }
+        
+        .form-container h3 {
+            font-size: 1.25rem;
+            color: var(--forest-dark);
+            margin-bottom: 24px;
+        }
+        
+        /* Placeholder form styling - HubSpot will override */
+        .hs-form-field {
+            margin-bottom: 20px;
+        }
+        
+        .hs-form-field label {
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-primary);
+            margin-bottom: 6px;
+        }
+        
+        .hs-form-field input[type="email"],
+        .hs-form-field input[type="text"] {
+            width: 100%;
+            padding: 14px 16px;
+            border: 1px solid #ddd;
+            font-size: 16px;
+            font-family: inherit;
+            transition: border-color 0.2s;
+        }
+        
+        .hs-form-field input:focus {
+            outline: none;
+            border-color: var(--forest);
+        }
+        
+        .hs-submit {
+            margin-top: 24px;
+        }
+        
+        .hs-submit input[type="submit"],
+        .btn-submit {
+            width: 100%;
+            padding: 16px 24px;
+            background: var(--coral);
+            color: white;
+            border: none;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+            font-family: inherit;
+        }
+        
+        .hs-submit input[type="submit"]:hover,
+        .btn-submit:hover {
+            background: var(--coral-light);
+        }
+        
+        .form-disclaimer {
+            margin-top: 16px;
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+        
+        /* Gated Content */
+        .gated-content {
+            display: none;
+        }
+        
+        .gated-content.unlocked {
+            display: block;
+        }
+        
+        /* Full Report Sections */
+        .report-section {
+            padding: 80px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.06);
+        }
+        
+        .report-section:nth-child(even) {
+            background: white;
+        }
+        
+        .report-section__header {
+            margin-bottom: 48px;
+        }
+        
+        .report-section__number {
+            font-family: 'Fraunces', serif;
+            font-size: 4rem;
+            color: var(--coral);
+            font-weight: 700;
+            opacity: 0.3;
+            line-height: 1;
+        }
+        
+        .report-section__title {
+            font-size: 2rem;
+            color: var(--forest-dark);
+            margin-top: -20px;
+        }
+        
+        .report-section__content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+        }
+        
+        @media (max-width: 768px) {
+            .report-section__content {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .report-section__text h4 {
+            font-size: 1.1rem;
+            color: var(--forest);
+            margin-bottom: 12px;
+            margin-top: 24px;
+        }
+        
+        .report-section__text h4:first-child {
+            margin-top: 0;
+        }
+        
+        .report-section__text p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+        
+        .report-section__text ul {
+            color: var(--text-secondary);
+            padding-left: 20px;
+            margin-bottom: 16px;
+        }
+        
+        .report-section__text li {
+            margin-bottom: 8px;
+        }
+        
+        /* Data Table */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            margin: 24px 0;
+        }
+        
+        .data-table th {
+            background: var(--forest);
+            color: white;
+            padding: 12px 16px;
+            text-align: left;
+            font-weight: 500;
+        }
+        
+        .data-table td {
+            padding: 12px 16px;
+            border-bottom: 1px solid rgba(0,0,0,0.06);
+        }
+        
+        .data-table tr:nth-child(even) {
+            background: var(--cream);
+        }
+        
+        /* Highlight Box */
+        .highlight-box {
+            background: linear-gradient(135deg, var(--forest) 0%, var(--forest-dark) 100%);
+            padding: 32px;
+            color: white;
+            margin: 32px 0;
+        }
+        
+        .highlight-box__title {
+            font-size: 1.25rem;
+            margin-bottom: 16px;
+            color: var(--coral-light);
+        }
+        
+        .highlight-box p {
+            color: white;
+            margin-bottom: 12px;
+        }
+        
+        .highlight-box p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .highlight-box ul {
+            color: white;
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+        
+        .highlight-box li {
+            color: white;
+            margin-bottom: 8px;
+        }
+        
+        .highlight-box strong {
+            color: white;
+        }
+        
+        /* Ensure highlight box text overrides parent styles */
+        .report-section__text .highlight-box p,
+        .report-section__text .highlight-box li,
+        .report-section__text .highlight-box,
+        .highlight-box p strong,
+        .report-section__text .highlight-box p strong {
+            color: white;
+        }
+        
+        /* Download CTA */
+        .download-cta {
+            background: var(--forest-dark);
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        .download-cta__title {
+            font-size: 1.75rem;
+            color: white;
+            margin-bottom: 16px;
+        }
+        
+        .download-cta__text {
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 32px;
+        }
+        
+        .download-cta__btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: var(--coral);
+            color: white;
+            padding: 16px 32px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        
+        .download-cta__btn:hover {
+            background: var(--coral-light);
+        }
+        
+        .download-cta__btn svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--forest-dark);
+            padding: 48px 0;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .footer__inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 24px;
+        }
+        
+        .footer__text {
+            color: rgba(255,255,255,0.5);
+            font-size: 14px;
+        }
+        
+        .footer__links {
+            display: flex;
+            gap: 24px;
+        }
+        
+        .footer__links a {
+            color: rgba(255,255,255,0.5);
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+        
+        .footer__links a:hover {
+            color: white;
+        }
+        
+        /* Already Unlocked Banner */
+        .unlocked-banner {
+            display: none;
+            background: var(--forest);
+            color: white;
+            padding: 16px;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        .unlocked-banner.visible {
+            display: block;
+        }
+        
+        .unlocked-banner a {
+            color: var(--coral-light);
+            text-decoration: underline;
+        }
+        
+        /* Hide gate when unlocked */
+        .gate.hidden {
+            display: none;
+        }
+        
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-in {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+        
+        .animate-in--delay-1 { animation-delay: 0.1s; }
+        .animate-in--delay-2 { animation-delay: 0.2s; }
+        .animate-in--delay-3 { animation-delay: 0.3s; }
+        .animate-in--delay-4 { animation-delay: 0.4s; }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__inner">
+            <div class="header__badge">
+                <span>Report</span>
+                RCC Therapeutics 2025–2035
+            </div>
+            <button class="header__cta" onclick="document.getElementById('gate').scrollIntoView({behavior: 'smooth'})">
+                Get Full Report
+            </button>
+        </div>
+    </header>
+    
+    <!-- Unlocked Banner (shown when returning) -->
+    <div class="unlocked-banner" id="unlockedBanner">
+        ✓ You have full access to this report. <a href="#full-report">Scroll to full report</a> or <a href="#" id="downloadLink">download PDF</a>.
+    </div>
+    
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <span class="hero__label animate-in">December 2025</span>
+            <h1 class="hero__title animate-in animate-in--delay-1">
+                Refractory Chronic Cough (RCC) Therapeutics
+            </h1>
+            <p class="hero__subtitle animate-in animate-in--delay-2">
+                Pipeline Analysis & Competitive Landscape 2025–2035
+            </p>
+            <div class="hero__meta animate-in animate-in--delay-3">
+                <div class="hero__meta-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                    </svg>
+                    52 pages
+                </div>
+                <div class="hero__meta-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    Updated December 2025
+                </div>
+                <div class="hero__meta-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    Supported by Hyfe Inc.
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Stats Bar -->
+    <section class="stats">
+        <div class="stats__grid">
+            <div class="stats__item">
+                <div class="stats__number">$9B<span>→</span>$15B</div>
+                <div class="stats__label">Market Size 2024–2035</div>
+            </div>
+            <div class="stats__item">
+                <div class="stats__number">~100M</div>
+                <div class="stats__label">Patients Worldwide</div>
+            </div>
+            <div class="stats__item">
+                <div class="stats__number">17</div>
+                <div class="stats__label">Therapeutics in Pipeline</div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Executive Summary (Public) -->
+    <section class="executive">
+        <div class="container">
+            <div class="executive__header">
+                <div class="executive__eyebrow">Executive Summary</div>
+                <h2 class="executive__title">A Market at Inflection Point</h2>
+                <p class="executive__intro">
+                    Refractory Chronic Cough remains a large, undertreated, and globally unaddressed condition. 
+                    The first U.S. approval—expected no earlier than 2026—will create a new therapeutic category.
+                </p>
+            </div>
+            
+            <div class="executive__grid">
+                <div class="insight-card">
+                    <div class="insight-card__number">01</div>
+                    <h3 class="insight-card__title">Massive Unmet Need</h3>
+                    <p class="insight-card__text">
+                        ~100M affected worldwide with no FDA-approved therapies. Current practice relies on off-label medicines with 31–40% adverse event rates and modest efficacy.
+                    </p>
+                </div>
+                
+                <div class="insight-card insight-card--highlight">
+                    <div class="insight-card__number">02</div>
+                    <h3 class="insight-card__title">Regulatory Reset</h3>
+                    <p class="insight-card__text">
+                        Two Complete Response Letters for Gefapixant raised the bar: FDA now requires ≥30% placebo-adjusted reduction in objective 24-hour cough frequency.
+                    </p>
+                </div>
+                
+                <div class="insight-card">
+                    <div class="insight-card__number">03</div>
+                    <h3 class="insight-card__title">Pipeline Clarity</h3>
+                    <p class="insight-card__text">
+                        Camlipixant leads with ~34% efficacy and <7% taste AEs. Nalbuphine ER shows highest efficacy (60% reduction). The U.S. market will likely see one winner, at most two.
+                    </p>
+                </div>
+                
+                <div class="insight-card insight-card--highlight">
+                    <div class="insight-card__number">04</div>
+                    <h3 class="insight-card__title">Digital Inflection</h3>
+                    <p class="insight-card__text">
+                        Digital therapeutics deliver ~40% cough reduction with no drug toxicity and extend pharmacologic persistence by 30%, improving lifetime value by ~44%.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Thesis -->
+    <section class="thesis">
+        <div class="container">
+            <div class="thesis__content">
+                <div class="thesis__label">Central Thesis</div>
+                <p class="thesis__text">
+                    "Therapies capable of demonstrating <strong>≥30% placebo-adjusted efficacy</strong>, 
+                    low discontinuation, durable symptom control, and <strong>digital integration</strong> 
+                    will dominate the market and define the first generation of approved RCC treatments."
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Table of Contents -->
+    <section class="toc">
+        <div class="container">
+            <div class="toc__header">
+                <h2 class="toc__title">What's Inside</h2>
+            </div>
+            <div class="toc__grid">
+                <div class="toc__item">
+                    <div class="toc__number">01</div>
+                    <div class="toc__name">Introduction</div>
+                </div>
+                <div class="toc__item">
+                    <div class="toc__number">02</div>
+                    <div class="toc__name">Market Landscape</div>
+                </div>
+                <div class="toc__item">
+                    <div class="toc__number">03</div>
+                    <div class="toc__name">Growth Dynamics</div>
+                </div>
+                <div class="toc__item">
+                    <div class="toc__number">04</div>
+                    <div class="toc__name">Commercial & Access</div>
+                </div>
+                <div class="toc__item">
+                    <div class="toc__number">05</div>
+                    <div class="toc__name">Pipeline & Strategy</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Preview Cards Section -->
+    <section class="preview-cards">
+        <div class="container">
+            <div class="preview-cards__grid">
+                <a href="executive-summary.html" target="_blank" rel="noopener" class="preview-card">
+                    <div class="preview-card__icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 2l5 5h-5V4zM6 20V4h6v6h6v10H6z"/>
+                            <path d="M8 12h8v2H8zm0 4h8v2H8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="preview-card__title">Read the Executive Summary</h3>
+                    <p class="preview-card__text">Key findings from the $9B+ RCC therapeutics market analysis</p>
+                    <span class="preview-card__link">Read now →</span>
+                </a>
+                <a href="thesis.html" target="_blank" rel="noopener" class="preview-card">
+                    <div class="preview-card__icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="preview-card__title">Investment Thesis</h3>
+                    <p class="preview-card__text">Strategic positioning for the next decade of chronic cough treatment</p>
+                    <span class="preview-card__link">Read now →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Gate Section -->
+    <section class="gate" id="gate">
+        <div class="container">
+            <div class="gate__inner">
+                <div class="gate__icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                    </svg>
+                </div>
+                <h2 class="gate__title">Access the Full Report</h2>
+                <p class="gate__text">
+                    Enter your email to unlock the complete 52-page analysis including pipeline scorecards, 
+                    scenario models, risk matrices, and strategic positioning insights.
+                </p>
+                <div class="gate__benefits">
+                    <div class="gate__benefit">
+                        <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        Instant access
+                    </div>
+                    <div class="gate__benefit">
+                        <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        PDF download
+                    </div>
+                    <div class="gate__benefit">
+                        <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        No spam
+                    </div>
+                </div>
+                
+                <div class="form-container">
+                    <h3>Get Your Copy</h3>
+                    
+                    <!-- HubSpot Form -->
+                    <div id="hubspotForm"></div>
+                    <script>
+                        (function() {
+                            var script = document.createElement('script');
+                            script.src = 'https://js.hsforms.net/forms/embed/v2.js';
+                            script.charset = 'utf-8';
+                            script.onload = function() {
+                                console.log('HubSpot script loaded');
+                                if (typeof hbspt !== 'undefined') {
+                                    hbspt.forms.create({
+                                        portalId: "20037908",
+                                        formId: "2e5e2e0e-46a2-481d-9935-70493c5c7c91",
+                                        region: "na1",
+                                        target: "#hubspotForm",
+                                        onFormSubmit: function($form) {
+                                            window.unlockReport();
+                                        }
+                                    });
+                                } else {
+                                    console.error('hbspt not defined after script load');
+                                }
+                            };
+                            script.onerror = function() {
+                                console.error('Failed to load HubSpot script');
+                                document.getElementById('hubspotForm').innerHTML = '<p style="color: #e85a4f;">Form failed to load. Please refresh the page or disable ad blockers.</p>';
+                            };
+                            document.head.appendChild(script);
+                        })();
+                    </script>
+                    
+                    <p class="form-disclaimer">
+                        By submitting, you agree to receive the report and occasional updates. 
+                        We respect your privacy and will never share your information.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Gated Full Content -->
+    <div class="gated-content" id="gatedContent">
+        
+        <!-- Section 2: Market Landscape -->
+        <section class="report-section" id="full-report">
+            <div class="container">
+                <div class="report-section__header">
+                    <div class="report-section__number">02</div>
+                    <h2 class="report-section__title">Market Landscape</h2>
+                </div>
+                <div class="report-section__content">
+                    <div class="report-section__text">
+                        <h4>Market Context</h4>
+                        <p>The chronic cough market is valued at approximately $9.8B in 2024 across the 7 Major Markets, projected to reach $14.9B by 2035 (CAGR ~6%).</p>
+                        
+                        <h4>Patient Population</h4>
+                        <ul>
+                            <li>Global chronic cough: 450–600M</li>
+                            <li>Global RCC: ~100M</li>
+                            <li>U.S. RCC: ~10M individuals</li>
+                            <li>Commercially reachable: 20–30M globally; 2–4M in U.S.</li>
+                        </ul>
+                        
+                        <h4>Growth Drivers</h4>
+                        <p>Aging populations, specialist referral expansion, digital identification tools, and increasing recognition of cough hypersensitivity syndrome are driving market growth.</p>
+                    </div>
+                    <div class="report-section__text">
+                        <div class="highlight-box">
+                            <div class="highlight-box__title">Investment Thesis</div>
+                            <p>Zero approved drugs for RCC in the U.S. creates first-mover advantage opportunity.</p>
+                            <p>GSK's $2B acquisition of Bellus Health validates the market opportunity.</p>
+                            <p>~$14B+ projected market with 31% of patients failing all current treatments.</p>
+                        </div>
+                        
+                        <h4>Key Risks</h4>
+                        <ul>
+                            <li>Efficacy ceiling / 30-60% placebo response in P2X3 RCTs</li>
+                            <li>FDA approval uncertainty post-Gefapixant precedent</li>
+                            <li>Economic evidence gap (QALY / CEA)</li>
+                            <li>Digital therapeutics disruption</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section 3: Market Outlook -->
+        <section class="report-section">
+            <div class="container">
+                <div class="report-section__header">
+                    <div class="report-section__number">03</div>
+                    <h2 class="report-section__title">Market Outlook & Growth Dynamics</h2>
+                </div>
+                <div class="report-section__content">
+                    <div class="report-section__text">
+                        <h4>Market Size Forecast</h4>
+                        <p>The RCC treatment market is projected to grow from $10.4B in 2025 to $18.5B by 2035, representing a CAGR of approximately 5.9% globally.</p>
+                        
+                        <h4>Regional Growth Rates (CAGR 2025-2035)</h4>
+                        <table class="data-table">
+                            <tr>
+                                <th>Region</th>
+                                <th>CAGR</th>
+                            </tr>
+                            <tr>
+                                <td>United States</td>
+                                <td>6.4%</td>
+                            </tr>
+                            <tr>
+                                <td>South Korea</td>
+                                <td>6.2%</td>
+                            </tr>
+                            <tr>
+                                <td>European Union</td>
+                                <td>6.0%</td>
+                            </tr>
+                            <tr>
+                                <td>United Kingdom</td>
+                                <td>5.8%</td>
+                            </tr>
+                            <tr>
+                                <td>Japan</td>
+                                <td>5.7%</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="report-section__text">
+                        <h4>Three Boxes for Commercial Success</h4>
+                        <div class="highlight-box">
+                            <div class="highlight-box__title">Success Criteria</div>
+                            <p><strong>Efficacy:</strong> >30% cough reduction (placebo-adjusted)</p>
+                            <p><strong>Tolerability:</strong> Taste AEs <10%</p>
+                            <p><strong>Durability:</strong> 24–52 weeks without tachyphylaxis</p>
+                        </div>
+                        
+                        <h4>Camlipixant Performance</h4>
+                        <p>Phase 2b SOOTHE trial demonstrated 34.4% reduction at 50mg BID with only 6.5% taste AEs—meeting all three success criteria.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section 4: Commercial Landscape -->
+        <section class="report-section">
+            <div class="container">
+                <div class="report-section__header">
+                    <div class="report-section__number">04</div>
+                    <h2 class="report-section__title">Commercial, Economic & Access Landscape</h2>
+                </div>
+                <div class="report-section__content">
+                    <div class="report-section__text">
+                        <h4>Mechanism Benchmarking</h4>
+                        <table class="data-table">
+                            <tr>
+                                <th>Mechanism</th>
+                                <th>Adj. Efficacy</th>
+                                <th>Key AEs</th>
+                            </tr>
+                            <tr>
+                                <td>P2X3 (Camlipixant)</td>
+                                <td>34%</td>
+                                <td>6.5% taste</td>
+                            </tr>
+                            <tr>
+                                <td>KOR/MOR (Nalbuphine)</td>
+                                <td>43-57%</td>
+                                <td>Nausea, sedation</td>
+                            </tr>
+                            <tr>
+                                <td>Digital BCST</td>
+                                <td>41%</td>
+                                <td>None</td>
+                            </tr>
+                            <tr>
+                                <td>P2X3 (Gefapixant)</td>
+                                <td>14-19%</td>
+                                <td>50-81% taste</td>
+                            </tr>
+                        </table>
+                        
+                        <h4>Payer Considerations</h4>
+                        <p>Without stronger HEOR evidence, even efficacious therapies may see restricted access or price compression. Key barriers include high OOP costs, step therapy requirements, and geographic SLP access limitations.</p>
+                    </div>
+                    <div class="report-section__text">
+                        <h4>Reimbursement by Market</h4>
+                        <ul>
+                            <li><strong>United States:</strong> No approved drug; PA/step therapy expected</li>
+                            <li><strong>UK:</strong> NICE appraisal terminated (Apr 2024)</li>
+                            <li><strong>EU:</strong> Gefapixant approved; country-by-country HTA</li>
+                            <li><strong>Japan:</strong> Gefapixant reimbursed at ¥11,250/mo after 7.7% price cut</li>
+                        </ul>
+                        
+                        <div class="highlight-box">
+                            <div class="highlight-box__title">Healthcare Utilization</div>
+                            <p>Median time to diagnosis: 6.5 years</p>
+                            <p>60% see ≥1 specialist</p>
+                            <p>57% prescribed ≥4 medications</p>
+                            <p>49% see ≥4 physicians before diagnosis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section 5: Pipeline & Strategy -->
+        <section class="report-section">
+            <div class="container">
+                <div class="report-section__header">
+                    <div class="report-section__number">05</div>
+                    <h2 class="report-section__title">Pipeline, Strategy & Scenarios</h2>
+                </div>
+                <div class="report-section__content">
+                    <div class="report-section__text">
+                        <h4>Pipeline Scorecard</h4>
+                        <table class="data-table">
+                            <tr>
+                                <th>Asset</th>
+                                <th>Stage</th>
+                                <th>Next Milestone</th>
+                            </tr>
+                            <tr>
+                                <td>Camlipixant (GSK)</td>
+                                <td>Phase 3</td>
+                                <td>CALM-1/2 H2 2025</td>
+                            </tr>
+                            <tr>
+                                <td>Nalbuphine ER (Trevi)</td>
+                                <td>Phase 2b</td>
+                                <td>Phase 3 H1 2026</td>
+                            </tr>
+                            <tr>
+                                <td>Taplucainium (Nocion)</td>
+                                <td>Phase 2b</td>
+                                <td>Topline 2025-26</td>
+                            </tr>
+                            <tr>
+                                <td>Hyfe DTx (Kyorin)</td>
+                                <td>Pre-launch</td>
+                                <td>Japan 2027</td>
+                            </tr>
+                        </table>
+                        
+                        <h4>The Placebo Problem</h4>
+                        <p>60-85% placebo response rate complicates clinical development. Gefapixant Phase 3 showed only 6.9% absolute difference vs active in responder rates.</p>
+                    </div>
+                    <div class="report-section__text">
+                        <h4>Digital Therapeutic Value Proposition</h4>
+                        <div class="highlight-box">
+                            <div class="highlight-box__title">DTx ROI Model</div>
+                            <p>Average duration: 7 months → 9.1 months (+30%)</p>
+                            <p>Revenue/patient: $7,700 → $10,010 (+30%)</p>
+                            <p>LTV (3-year): $15,400 → $22,110 (+44%)</p>
+                            <p>ROI: 7.7:1</p>
+                        </div>
+                        
+                        <h4>Scenario Analysis (NPV)</h4>
+                        <ul>
+                            <li><strong>Bear Case:</strong> $7.87B cumulative</li>
+                            <li><strong>Base Case:</strong> $9.44B cumulative (+DTx)</li>
+                            <li><strong>Bull Case:</strong> $12.0B+ cumulative</li>
+                        </ul>
+                        
+                        <p>Digital integration delivers +$1.57B value lift (+20%) in base case scenario.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Download CTA -->
+        <section class="download-cta">
+            <div class="container">
+                <h2 class="download-cta__title">Download the Complete Report</h2>
+                <p class="download-cta__text">
+                    Get the full 52-page PDF with all exhibits, data tables, and detailed analysis.
+                </p>
+                <a href="https://support.hyfe.com/hubfs/Hyfe%20White%20Papers/Chronic%20Cough%20Treatment%20-%20Pipeline%20Analysis%20and%20Competitive%20Landscape%202026%20-%202035.pdf" class="download-cta__btn" id="pdfDownload" target="_blank">
+                    <svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+                    Download PDF
+                </a>
+            </div>
+        </section>
+        
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p class="footer__text">
+                © 2025 RCC Therapeutics Report. Prepared with support from Hyfe Inc.
+            </p>
+            <div class="footer__links">
+                <a href="executive-summary.html">Executive Summary</a>
+                <a href="thesis.html">Thesis</a>
+                <a href="https://www.hyfe.com" target="_blank">Hyfe.com</a>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Configuration
+        const CONFIG = {
+            pdfUrl: 'https://support.hyfe.com/hubfs/Hyfe%20White%20Papers/Chronic%20Cough%20Treatment%20-%20Pipeline%20Analysis%20and%20Competitive%20Landscape%202026%20-%202035.pdf',
+            storageKey: 'rcc_report_unlocked'
+        };
+        
+        // Check if already unlocked on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            if (isUnlocked()) {
+                showUnlockedState();
+            }
+        });
+        
+        // Check localStorage for unlock status
+        function isUnlocked() {
+            try {
+                return localStorage.getItem(CONFIG.storageKey) === 'true';
+            } catch (e) {
+                return false;
+            }
+        }
+        
+        // Set unlocked status
+        function setUnlocked() {
+            try {
+                localStorage.setItem(CONFIG.storageKey, 'true');
+            } catch (e) {
+                console.log('localStorage not available');
+            }
+        }
+        
+        // Show unlocked state
+        function showUnlockedState() {
+            // Hide gate
+            document.getElementById('gate').classList.add('hidden');
+            
+            // Show gated content
+            document.getElementById('gatedContent').classList.add('unlocked');
+            
+            // Show banner for returning visitors
+            document.getElementById('unlockedBanner').classList.add('visible');
+            
+            // Update header CTA
+            const headerCta = document.querySelector('.header__cta');
+            if (headerCta) {
+                headerCta.textContent = 'Download PDF';
+                headerCta.onclick = function() {
+                    document.getElementById('pdfDownload').click();
+                };
+            }
+        }
+        
+        // Global unlock function - called by HubSpot onFormSubmit
+        window.unlockReport = function() {
+            setUnlocked();
+            showUnlockedState();
+            
+            // Smooth scroll to full report
+            setTimeout(function() {
+                document.getElementById('full-report').scrollIntoView({ 
+                    behavior: 'smooth' 
+                });
+            }, 500);
+        };
+        
+        // Set up PDF download link
+        document.getElementById('pdfDownload').addEventListener('click', function(e) {
+            this.href = CONFIG.pdfUrl;
+            this.target = '_blank';
+        });
+        
+        document.getElementById('downloadLink').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.open(CONFIG.pdfUrl, '_blank');
+        });
+    </script>
+</body>
+</html>
