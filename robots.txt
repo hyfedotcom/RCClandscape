@@ -1,0 +1,7 @@
+# robots.txt for coughreport.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://coughreport.com/sitemap.xml
